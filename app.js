@@ -25,7 +25,7 @@ db.authenticate()
   );
 
 // 4. Rutas (Tus compañeras las conectarán aquí)
-// app.use('/clientes', require('./routes/clientesRoutes'));
+app.use("/clientes", require("./routes/clientesRoutes"));
 // app.use('/mascotas', require('./routes/mascotasRoutes'));
 
 // 5. Servidor escuchando en el puerto 8000
